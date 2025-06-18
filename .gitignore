@@ -1,0 +1,39 @@
+.venv
+*.venv
+venv
+*venv
+.env
+*.env
+
+# Python (Backend)
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/.pytest_cache/
+backend/.mypy_cache/
+*.pyc
+*.pyo
+*.pyd
+
+# FastAPI/Uvicorn logs
+*.log
+
+# Node (Frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+.env
+*.sqlite3
+*.db
